@@ -14,4 +14,4 @@ An example is shown below:
 
 ![Auth Demo](./examples/kVM9jmUdI1.gif)
 
-### Results will be saved into file users.txt
+### Results will be saved into file users.txt.
