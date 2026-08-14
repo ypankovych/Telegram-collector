@@ -3,7 +3,7 @@ from getpass import getpass
 from time import sleep
 
 from telethon import TelegramClient
-from telethon.errors.rpcerrorlist import SessionPasswordNeededError, UsernameNotOccupiedError, FloodWaitError
+from telethon.errors import SessionPasswordNeededError, UsernameNotOccupiedError, FloodWaitError
 from telethon.tl.functions.channels import GetParticipantsRequest
 from telethon.tl.functions.contacts import ResolveUsernameRequest
 from telethon.tl.types import ChannelParticipantsSearch, InputChannel
